@@ -14,6 +14,6 @@ inputs:
 outputs:
   website-url:
     description: 'The URL of the deployed website'
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
